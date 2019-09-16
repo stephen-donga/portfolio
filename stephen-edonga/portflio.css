@@ -1,0 +1,179 @@
+html{
+    scroll-behavior:smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    width:100%;
+    background-color: #292928;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+nav:hover{
+    background-color: rgb(12, 12, 12);
+}
+ul{
+    padding: 0;
+    margin:0;
+    list-style: none;
+}
+
+
+li{
+    float: left;
+}
+
+a{
+    padding: 20px;
+    width:100px;
+    display: block;
+    text-decoration: none;
+    color: rgb(240, 228, 228);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+a:hover{
+    color:#588ae7;
+}
+b{
+color:rgb(3, 22, 41);
+
+}
+#section1{
+    display: grid;
+    padding-top: 100px;
+    height: 700px;
+    background-color: #eaf5f3;
+    width: 100%;
+}
+#container{
+    display:grid;
+}
+ 
+
+#section2{
+     
+    padding-top: 100px;
+    padding-left:15px;
+    height: 700px;
+    background-color: #d6d4c6;
+    display: inline-block;
+    width: 100%;
+}
+#head{
+    color:rgb(28, 24, 31);
+}
+
+
+#section3{
+    padding-top: 100px;
+    padding-left:15px;
+    height: 700px;
+    background-color: #c6d9df;
+    display: inline-block;
+    width: 100%;
+}
+
+#section4{
+    padding-top: 100px;
+    padding-left:15px;
+    height: 700px;
+    background-color: #d1c1da;
+    display: inline-block;
+    width: 100%;
+}
+
+#section5{
+    padding-top: 100px;
+    padding-left:15px;
+    height: 700px;
+    background-color: #d1c6c6;
+    display: inline-block;
+    width: 100%;
+}
+
+#container{
+    padding: 15px;
+    display:grid;
+    grid-template-columns: 150px auto 150px;
+    grid-template-rows: 220px 250px;
+    grid-gap: 150px;
+}
+#facebook{
+    color:blue;
+    float:left;
+    
+}
+#twitter{
+    color:blue;
+    float:left;
+    padding-left:95px;
+}
+#email{
+    color:blue;
+    float:left;
+    padding-left:95px;
+}
+#git{
+    color:blue;
+    float:left;
+    padding-left:95px;
+}
+#head{
+    color:rgb(89, 89, 100);
+    padding-left:25px
+}
+#ht{
+    float:left;
+    padding-left:25px
+}
+#jav{
+    float:left;
+    padding-left:25px
+}
+#leader{
+    float:left;
+    padding-left:25px
+}
+#node{
+    float:left;
+    padding-left:25px
+}
+#mcl{
+    margin-left:25px;
+    float:left;
+    color:blue;
+
+}
+#os{
+    margin-left:25px;
+    float:left;
+    color:blue;
+}
+#jksn{
+    margin-left:25px;
+    float:left;
+    color:blue;
+}
+#mtn{
+    margin-left:25px;
+    float:left;
+    color:blue;
+    font-weight: 78;
+}
+#loan{
+    float:left;
+}
+#toyota{
+    float:left;
+    margin-left:35px;
+}
+#form{
+    float:left;
+    margin-left:35px;
+}
